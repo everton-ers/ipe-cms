@@ -1,0 +1,6 @@
+LEIAME.txt
+
+27.10.2008
+
+
+O arquivo ipecms_modelo.xml deve ser aberto em um software de modelagem de dados, como o Fabforce Database Designer.

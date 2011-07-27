@@ -1,0 +1,10 @@
+Microsoft OLE DB Provider for ODBC Drivers (0x80040E37)
+[MySQL][ODBC 3.51 Driver][mysqld-4.0.17-nt]Table 'ipecms.tbconteudo' doesn't exist
+/ipecms/site/topo.asp, line 40
+
+
+Microsoft OLE DB Provider for ODBC Drivers error '80040e37'
+
+[MySQL][ODBC 3.51 Driver][mysqld-5.0.51-locaweb-log]Table 'arrservicos.tbConteudo' doesn't exist
+
+/ipecms/site/topo.asp, line 40 

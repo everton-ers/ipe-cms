@@ -1,0 +1,222 @@
+<STYLE>BODY {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+.leftMenu {
+	TEXT-ALIGN: left
+}
+.centerMenu {
+	TEXT-ALIGN: center
+}
+.rightMenu {
+	TEXT-ALIGN: right
+}
+A.MenuLabelLink {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: bold; FONT-SIZE: 10px; PADDING-BOTTOM: 0px; MARGIN: 0px; COLOR: #010101; PADDING-TOP: 0px; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+A.MenuLabelLink:link {
+	COLOR: #010101; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+A.MenuLabelLink:visited {
+	COLOR: #010101; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+A.MenuLabelLink:hover {
+	COLOR: #010101; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+A.MenuLabelLinkOn {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: bold; FONT-SIZE: 10px; PADDING-BOTTOM: 0px; MARGIN: 0px; COLOR: #000000; PADDING-TOP: 0px; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+A.MenuLabelLinkOn:link {
+	COLOR: #000000; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+A.MenuLabelLinkOn:visited {
+	COLOR: #000000; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+A.MenuLabelLinkOn:hover {
+	COLOR: #000000; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+A.MenuItemLink {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: normal; FONT-SIZE: 10px; PADDING-BOTTOM: 0px; MARGIN: 0px; COLOR: #010101; PADDING-TOP: 0px; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+A.MenuItemLink:link {
+	COLOR: #010101; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+A.MenuItemLink:visited {
+	COLOR: #010101; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+A.MenuItemLink:hover {
+	COLOR: #010101; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+A.MenuItemLinkOn {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: bold; FONT-SIZE: 10px; PADDING-BOTTOM: 0px; MARGIN: 0px; COLOR: #000000; PADDING-TOP: 0px; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+A.MenuItemLinkOn:link {
+	COLOR: #000000; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+A.MenuItemLinkOn:visited {
+	COLOR: #000000; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+A.MenuItemLinkOn:hover {
+	COLOR: #000000; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.myMenu {
+	Z-INDEX: 5; VISIBILITY: hidden; POSITION: absolute
+}
+.myMenuLabelleft {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; TEXT-ALIGN: left
+}
+.myMenuLabelcenter {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; TEXT-ALIGN: center
+}
+.myMenuLabelright {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; TEXT-ALIGN: right
+}
+.myMenuItemleft {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; TEXT-ALIGN: left
+}
+.myMenuItemcenter {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; TEXT-ALIGN: center
+}
+.myMenuItemright {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; TEXT-ALIGN: right
+}
+#myTest {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; Z-INDEX: 1; PADDING-BOTTOM: 0px; WIDTH: 780px; PADDING-TOP: 0px
+}
+</STYLE>
+
+<SCRIPT language=JavaScript1.2 
+src="api.js" type=text/javascript>
+<!--
+
+-->
+</SCRIPT>
+
+<SCRIPT language=JavaScript1.2 
+src="menucode.js" type=text/javascript>
+<!--
+
+-->
+</SCRIPT>
+
+<SCRIPT language=JavaScript1.2 type=text/javascript>
+<!--
+sniffBrowsers();
+
+menuItemBullet = new bulletPoint("menu_off.gif","menu_on.gif");
+labelBullet = new bulletPoint("header_off.gif","header_on.gif");
+subMenuBullet = new bulletPoint("sub_header_off.gif","sub_header_on.gif");
+
+myTest = new menuBar('myTest',800, 'horizontal', '#aaaaaa', '#aaaaaa');
+myTest.addLabel('labelBullet', 'Evento', 1, 100, '#dfdfdf', '#ffcc99', '#', 'left');
+myTest.addLabel('labelBullet', 'Inscrições', 2, 100, '#dfdfdf', '#ffcc99', '#', 'left');
+myTest.addLabel('labelBullet', 'Financeiro', 3, 100, '#dfdfdf', '#ffcc99', '#', 'left');
+myTest.addLabel('labelBullet', 'Trabalhos', 4, 100, '#dfdfdf', '#ffcc99', '#', 'left');
+myTest.addLabel('labelBullet', 'Avaliação', 5, 100, '#dfdfdf', '#ffcc99', '#', 'left');
+myTest.addLabel('labelBullet', 'Prog.Científica', 6, 100, '#dfdfdf', '#ffcc99', '#', 'left');
+myTest.addLabel('labelBullet', 'Estatísticas', 7, 100, '#dfdfdf', '#ffcc99', '#', 'left');
+myTest.height = 14;
+
+// menu EVENTO 
+menus[1] = new menu(150, 'vertical', '#ffffff', '#cccccc');
+menus[1].height = 16;
+menus[1].addItem('menuItemBullet', 'Cadastro de Evento', null, 150, '#dfdfdf', '#ffcc99', 'eve_dados_evento.asp', 'left');
+menus[1].addItem('menuItemBullet', 'Seleção de Evento', null, 150, '#dfdfdf', '#ffcc99', 'eve_selevento.asp', 'left');
+menus[1].addItem('menuItemBullet', 'Categoria de Preço', null, 150, '#dfdfdf', '#ffcc99', 'eve_lista_categoria.asp', 'left');
+//menus[1].addItem('menuItemBullet', 'Áreas de Trabalho', null, 150, '#dfdfdf', '#ffcc99', 'areas_trabalho.asp', 'left');
+//menus[1].addItem('menuItemBullet', 'Texto Envio Inscrição', null, 150, '#dfdfdf', '#ffcc99', 'embreve.asp', 'left');
+//menus[1].addItem('menuItemBullet', 'Texto Envio Trabalho', null, 150, '#dfdfdf', '#ffcc99', 'embreve.asp', 'left');
+//menus[1].addItem('menuItemBullet', 'Texto Conf. Pagto', null, 150, '#dfdfdf', '#ffcc99', 'embreve.asp', 'left');
+menus[1].writeMenu();
+
+
+// menu INSCRIÇÕES
+menus[2] = new menu(160, 'vertical', '#ffffff', '#cccccc');
+menus[2].height = 16;
+menus[2].addItem('menuItemBullet', 'Pesquisa', null, 180, '#dfdfdf', '#ffcc99', 'ins_busca_inscrito.asp?eveId=<%=eveId%>', 'left');
+menus[2].addItem('menuItemBullet', 'Lista de Inscritos', null, 180, '#dfdfdf', '#ffcc99', 'ins_lista_inscritos.asp?eveId=<%=eveId%>', 'left');
+menus[2].addItem('menuItemBullet', 'Mensagem para Inscritos', null, 180, '#dfdfdf', '#ffcc99', 'ins_form_email_inscrito.asp?eveId=<%=eveId%>', 'left');
+menus[2].addItem('menuItemBullet', 'Nova Inscricao', null, 180, '#dfdfdf', '#ffcc99', 'novainscricao.asp', 'left');
+menus[2].writeMenu();
+
+// menu FINANCEIRO
+menus[3] = new menu(150, 'vertical', '#ffffff', '#cccccc');
+menus[3].height = 16;
+
+
+menus[3].addItem('menuItemBullet', 'Lista de Pagamentos', null, 150, '#dfdfdf', '#ffcc99', 'fin_listaboletos.asp?eveId=<%=eveId%>', 'left');
+menus[3].addItem('menuItemBullet', 'Lista de Não Pagos', null, 150, '#dfdfdf', '#ffcc99', 'fin_listaboletos.asp?eveId=<%=eveId%>&lista=naopagos', 'left');
+menus[3].addItem('menuItemBullet', 'Lista de Pagos', null, 150, '#dfdfdf', '#ffcc99', 'fin_listaboletos.asp?eveId=<%=eveId%>&lista=pagos', 'left');
+menus[3].addItem('menuItemBullet', 'Alteração de Pagamentos', null, 150, '#dfdfdf', '#ffcc99', 'fin_formalteraboleto.asp?eveId=<%=eveId%>', 'left');
+menus[3].addItem('menuItemBullet', 'Baixa de Pagamentos', null, 150, '#dfdfdf', '#ffcc99', 'fin_formbaixaboleto.asp?eveId=<%=eveId%>', 'left');
+menus[3].addItem('menuItemBullet', 'Síntese de Pagamentos', null, 150, '#dfdfdf', '#ffcc99', 'fin_sintesepagamento.asp?eveId=<%=eveId%>', 'left');
+menus[3].writeMenu();
+
+// menu TRABALHOS
+menus[4] = new menu(150, 'vertical', '#ffffff', '#cccccc');
+menus[4].height = 16;
+menus[4].addItem('menuItemBullet', 'Busca / Manutenção', null, 150, '#dfdfdf', '#ffcc99', 'tra_busca_trabalho.asp?eveId=<%=eveId%>', 'left');
+menus[4].addItem('menuItemBullet', 'Lista Trabalhos - Área', null, 150, '#dfdfdf', '#ffcc99', 'tra_lista_trabalho.asp?eveId=<%=eveId%>', 'left');
+menus[4].addItem('menuItemBullet', 'Síntese Trabalhos - Área', null, 150, '#dfdfdf', '#ffcc99', 'tra_sintesetrabalho.asp?eveId=<%=eveId%>', 'left');
+/*menus[4].addItem('menuItemBullet', 'Resumos Vazios', null, 150, '#dfdfdf', '#ffcc99', 'resumosvazios.asp?eveId=<%=eveId%>', 'left');	 
+menus[4].addItem('menuItemBullet', 'Cadastro de Sessão', null, 150, '#dfdfdf', '#ffcc99', 'tra_listasessao.asp?eveId=<%=eveId%>', 'left');*/
+menus[4].addItem('menuItemBullet', 'Lista de Trabalho - Sessão', null, 150, '#dfdfdf', '#ffcc99', 'tra_listaresumos_sessao.asp?eveId=<%=eveId%>', 'left');
+menus[4].writeMenu();
+
+// menu AVALIAÇÃO
+menus[5] = new menu(150, 'vertical', '#ffffff', '#cccccc');
+menus[5].height = 16;
+menus[5].addItem('menuItemBullet', 'Cadastro de Avaliador', null, 150, '#dfdfdf', '#ffcc99', 'ava_listaanalisador.asp?eveId=<%=eveId%>', 'left');
+menus[5].addItem('menuItemBullet', 'Distribuição de Trabalhos', null, 150, '#dfdfdf', '#ffcc99', 'ava_listatrabalho_analise.asp?eveId=<%=eveId%>', 'left');
+menus[5].addItem('menuItemBullet', 'Mensagem Analisador', null, 160, '#dfdfdf', '#ffcc99', 'ava_formemailanalisador.asp?eveId=<%=eveId%>', 'left');
+menus[5].addItem('menuItemBullet', 'Síntese de Avaliação', null, 150, '#dfdfdf', '#ffcc99', 'embreve.asp?eveId=<%=eveId%>', 'left');
+menus[5].writeMenu();
+
+// menu Prog. Científica
+menus[6] = new menu(150, 'vertical', '#ffffff', '#cccccc');
+menus[6].height = 16;
+menus[6].addItem('menuItemBullet', 'Cadastro de Atividade', null, 150, '#dfdfdf', '#ffcc99', 'pro_listaatividade.asp', 'left');
+menus[6].addItem('menuItemBullet', 'Pesquisa', null, 150, '#dfdfdf', '#ffcc99', 'pro_pesquisaprogramacientifico.asp', 'left');
+menus[6].addItem('menuItemBullet', 'Programa Científico', null, 150, '#dfdfdf', '#ffcc99', 'pro_listaprogramacientifico.asp', 'left');
+menus[6].addItem('menuItemBullet', 'Lista Palestrante', null, 150, '#dfdfdf', '#ffcc99', 'pro_listapalestranteatividade.asp', 'left');
+menus[6].addItem('menuItemBullet', 'Tipo de Atividade', null, 150, '#dfdfdf', '#ffcc99', 'pro_tipoatividade.asp', 'left');
+menus[6].addItem('menuItemBullet', 'Categoria Palestrante', null, 150, '#dfdfdf', '#ffcc99', 'pro_catpalestrante.asp', 'left');
+
+menus[6].writeMenu();
+
+
+
+// menu Estatísticas
+menus[7] = new menu(150, 'vertical', '#ffffff', '#cccccc');
+menus[7].height = 16;
+menus[7].addItem('menuItemBullet', 'Categoria', null, 150, '#dfdfdf', '#ffcc99', 'est_sinteseinscricao.asp?eveId=<%=eveId%>', 'left');
+menus[7].addItem('menuItemBullet', 'Cidade', null, 135, '#dfdfdf', '#ffcc99', 'est_sintesecidade.asp?eveId=<%=eveId%>', 'left');
+menus[7].addItem('menuItemBullet', 'Estado', null, 135, '#dfdfdf', '#ffcc99', 'est_sinteseestado.asp?eveId=<%=eveId%>', 'left');
+menus[7].addItem('menuItemBullet', 'Áreas de trabalho', null, 135, '#dfdfdf', '#ffcc99', 'embreve.asp?eveId=<%=eveId%>', 'left');
+menus[7].addItem('menuItemBullet', 'Avaliação de trabalhos', null, 135, '#dfdfdf', '#ffcc99', 'embreve.asp?eveId=<%=eveId%>', 'left');
+menus[7].addItem('menuItemBullet', 'Pagamento', null, 135, '#dfdfdf', '#ffcc99', 'est_sintesepagamento.asp?eveId=<%=eveId%>', 'left');
+menus[7].writeMenu();
+
+menus[1].align='left';
+menus[2].align='left';
+menus[3].align='left';
+menus[4].align='left';
+menus[5].align='left';
+menus[6].align='left';
+menus[7].align='left';
+
+//-->
+</SCRIPT>
+
+
+<!--<DIV style="Z-INDEX: 10; POSITION: absolute">-->
+<table width="100%" bgcolor="#dfdfdf">
+<tr><td>
+<SCRIPT language=JavaScript1.2 type=text/javascript>
+<!--
+myTest.writeMenuBar();
+//-->
+</SCRIPT>
+</td></tr>
+</table>
+
+<!--</DIV>-->
